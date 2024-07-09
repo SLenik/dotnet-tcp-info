@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+	    <RootNamespace>TcpInfoExample</RootNamespace>
+	    <AssemblyName>TcpInfoExample</AssemblyName>
+	    <LangVersion>8</LangVersion>
+	    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	    <TargetFrameworks>net472;net6</TargetFrameworks>
+	    <OutputType>Exe</OutputType>
+    </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="System.Text.Json" Version="8.0.3" />
+    </ItemGroup>
+    <ItemGroup>
+      <Reference Include="System.Net.Http" />
+    </ItemGroup>
+</Project>
